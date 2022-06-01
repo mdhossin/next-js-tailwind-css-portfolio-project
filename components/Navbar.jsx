@@ -27,12 +27,12 @@ const Navbar = () => {
 
         <div>
           <ul className="hidden md:flex items-center">
-            <Link href="/">
+            <Link href="#home">
               <a>
                 <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
               </a>
             </Link>
-            <Link href="/">
+            <Link href="#about">
               <a>
                 <li className="ml-10 text-sm uppercase hover:border-b">
                   About
